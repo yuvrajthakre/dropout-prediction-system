@@ -1,0 +1,16 @@
+[project]
+name = "hello-project"
+version = "0.1.0"
+description = "Student dropout prediction model using a classification algorithm"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "scikit-learn>=1.5",
+  "numpy>=1.26",
+  "streamlit>=1.37",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
